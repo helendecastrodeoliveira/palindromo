@@ -30,5 +30,6 @@ let limpar = document.querySelector('.btn-limpar');
  limpar.onclick = function () {
      entradaTexto.value = '';
      respostaSaida.style.display = 'none';
+     entradaTexto.focus();
  }
 
